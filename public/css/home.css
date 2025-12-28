@@ -630,7 +630,7 @@ text-align: center;
 
 }
 
-.spec_product_frame .spec_product_wrapper .big_product_box {
+.spec_product_wrapper .big_product_box {
     position: relative;
     padding: 30px;
     width: 664px;
@@ -645,7 +645,7 @@ background: rgba(243, 245, 246, 1);
 }
 
 
-.spec_product_frame .big_product_box .big_product_content {
+.big_product_box .big_product_content {
     width: 160px;
     display: flex;
     flex-direction: column;
@@ -653,7 +653,7 @@ background: rgba(243, 245, 246, 1);
 
 }
 
-.spec_product_frame .big_product_content span {
+.big_product_content span {
     color: rgba(4, 30, 66, 1);
 
 font-family: Jost;
@@ -665,7 +665,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 
-.spec_product_frame .big_product_content p {
+.big_product_content p {
     margin: 7px 0px;
     color: rgba(4, 30, 66, 1);
 
@@ -678,7 +678,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 
-.spec_product_frame .big_product_content a {
+.big_product_content a {
     color: rgba(4, 30, 66, 1);
 
 font-family: Jost;
@@ -690,14 +690,14 @@ letter-spacing: 0%;
 
 }
 
-.spec_product_frame .big_product_box img {
+.big_product_box img {
     position:absolute;
     width: 322px;
     height: 309px;
     right: 5%;
 }
 
-.spec_product_frame .spec_product_frame .small_product_wrapper {
+.spec_product_frame .small_product_wrapper {
     margin-left: 30px;
     width: 620px;
     height: 368px;
@@ -707,7 +707,7 @@ letter-spacing: 0%;
     flex-wrap: wrap;
 }
 
-.spec_product_frame .small_product_wrapper .small_product_box {
+.small_product_wrapper .small_product_box {
     position: relative;
    padding: 30px;
     width: 293px;
@@ -721,16 +721,16 @@ letter-spacing: 0%;
 background: rgba(243, 245, 246, 1);
 }
 
-.spec_product_frame .small_product_box:nth-child(odd) {
+.small_product_box:nth-child(odd) {
     margin-right: 30px;
 }
 
-.spec_product_frame .small_product_box .small_product_content {
+.small_product_box .small_product_content {
     display: flex;
     flex-direction: column;
 }
 
-.spec_product_frame .small_product_content strong {
+.small_product_content strong {
 color: rgba(4, 30, 66, 1);
 
 font-family: Jost;
@@ -742,7 +742,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 
-.spec_product_frame .small_product_content span {
+.small_product_content span {
 color: rgba(98, 105, 116, 1);
 
 font-family: Jost;
@@ -754,8 +754,8 @@ letter-spacing: 0%;
 text-align: left;
 }
 
-.spec_product_frame .small_product_box img {
+.small_product_box img {
     position: absolute;
     right: 26px;
-    top: 44px;
+   bottom: 15pxgit;
 }
